@@ -15,7 +15,7 @@ lorem <- paste0(
 
 about <- paste0(
   "<p style = 'line-height: 180%; margin-bottom: 15px;'>",
-  "This app was design so that Law students at <a href = 'https://direitorio.fgv.br/'>FGV's Rio de Janeiro Law School</a> could practice some of the concepts they are learning in their course on Decision Theory. ", 
+  "This app was designed so that Law students at <a href = 'https://direitorio.fgv.br/'>FGV's Rio de Janeiro Law School</a> could practice some of the concepts they are learning in their 2nd year course on Decision Theory. ", 
   "Because it is a course designed for students that do not possess graduate-level math skills, the course is not intended to provide a deep mathematical understanding of Decision Theory. ", 
   "Instead, the focus of the course is to give a general overview of the field, introducing students to some of the merits and challenges of Decision Theory, specially as it relates to legal considerations regarding the consequences of legal decisions and public policy choices. ", 
   "</p>",
