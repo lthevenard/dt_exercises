@@ -11,7 +11,8 @@ mod_about_UI <- function(id) {
       ),
       column(2)
     ),
-    fluidRow(column(12, HTML(UI_footer)))
+    br(),
+    fluidRow(style = "background-color: #183d7a", column(12, HTML(UI_footer)))
   )
 }
 

@@ -37,7 +37,7 @@ about <- paste0(
 )
 
 UI_footer <- paste0(
-  "</br></br><p style = 'text-align: center; font-size:0.8em; color: lightgray; line-height: 50%;'>",
+  "</br><p style = 'text-align: center; font-size:0.8em; color: white; line-height: 50%;'>",
   "<b>Created by</b>: Lucas Thevenard | ",
   "<b>Last update</b>: 28/03/2022",
   "</p>",
