@@ -21,7 +21,7 @@ ui <- navbarPage(
   ),
   tabPanel(
     paste(emo::ji("open_book"), "About"),
-    hr(), br(),
+    br(), br(),
     mod_about_UI("about_ui")
   )
 )

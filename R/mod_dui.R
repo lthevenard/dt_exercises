@@ -33,17 +33,19 @@ mod_dui_UI <- function(id) {
       mainPanel(
         tabsetPanel(
           tabPanel(
-            "Exercise",
+            paste(emo::ji("strong"), "Exercise"),
             br(),
-            htmlOutput(ns("UI_mainPanel_fill_information")), 
+            htmlOutput(ns("UI_mainPanel_fill_information_question")), 
             hr(),
             htmlOutput(ns("problem_presentation")), 
             dataTableOutput(ns("problem_table")),
             br(), br(), br()
           ),
           tabPanel(
-            "Solution",
+            paste(emo::ji("nerd"), "Solution"),
             br(),
+            htmlOutput(ns("UI_mainPanel_fill_information_solution")),
+            hr(),
             htmlOutput(ns("solution_header")),
             br(),
             dataTableOutput(ns("solution_table")),
@@ -62,7 +64,8 @@ mod_dui_server <- function(id) {
     id,
     function(input, output, session) {
       output$UI_sidebar_title_1 <- renderUI({HTML(UI_sidebar_title_1)})
-      output$UI_mainPanel_fill_information <- renderUI({HTML(UI_mainPanel_fill_information)})
+      output$UI_mainPanel_fill_information_question <- renderUI({HTML(UI_mainPanel_fill_information)})
+      output$UI_mainPanel_fill_information_solution <- renderUI({HTML(UI_mainPanel_fill_information)})
       
       level_of_optimism <- eventReactive({input$exercise_type}, {
         if (input$exercise_type == "Optimism-Pessimism Rule") {

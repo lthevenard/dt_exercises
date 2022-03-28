@@ -16,29 +16,36 @@ lorem <- paste0(
 about <- paste0(
   "<p style = 'line-height: 180%; margin-bottom: 15px;'>",
   "This app was design so that Law students at <a href = 'https://direitorio.fgv.br/'>FGV's Rio de Janeiro Law School</a> could practice some of the concepts they are learning in their course on Decision Theory. ", 
-  "Because it is a course designed for students that do not possess graduate-level math skills, the idea of the course is not to develop a deep mathematical understanding of Decision Theory. ", 
-  "The focus of the course is to provide a general view of the field, and introduce the students to some of the merits and challenges of Decision Theory, specially as it potentially relates to legal considerations regarding the consequences of legal decisions and public policy choices. ", 
+  "Because it is a course designed for students that do not possess graduate-level math skills, the course is not intended to provide a deep mathematical understanding of Decision Theory. ", 
+  "Instead, the focus of the course is to give a general overview of the field, introducing students to some of the merits and challenges of Decision Theory, specially as it relates to legal considerations regarding the consequences of legal decisions and public policy choices. ", 
   "</p>",
   "<p style = 'line-height: 180%; margin-bottom: 15px;'>",
-  "Nevertheless, the course does provide a general overview of the typical decision problems and solution methods presented by Decision Theory, including a brief introduction to Game Theory. ", 
-  "By dealing with simple, discrete examples, and focusing more on the conceptual foundations of the discipline, our goal is to create and interesting and effective introduction to Decision Theory. ", 
-  "By not shying away completely from the analytical foundations of the discipline, we intend to guide students towards a better understanding of rational choice theory and of the applications of Decision Theory in Law.", 
+  "Nevertheless, the course does offer a first contact with the typical decision problems and solution methods presented by Decision Theory, including a brief introduction to Game Theory. ", 
+  "By dealing with simple, discrete examples, and focusing more on the conceptual foundations of the discipline, our goal is to prepare an interesting and effective introduction to Decision Theory. ", 
+  "By not shying away completely from the analytical foundations of the discipline, we intend to guide students towards a solid understanding of rational choice theory and of its applications to legal problems.", 
   "</p>",
   "<p style = 'line-height: 180%; margin-bottom: 15px;'>",
-  "Given these circumstances, this app is intended to be a <i>playground</i> or <i>testing field</i> where students can go to practice some of the concepts they learned during classes. ",
-  "It is an ambitious project, that will be implemented gradually and will probably have to be revised many times in the future by it's sole developper. ",
-  "Currently, the app only has a couple of exercise types dealing with decisions under ignorance. ",
-  "In the future, I hope to include many more exercise options, making the experience a little richer for the students that decide to visit the app. ",
+  "Given these objectives, this app is intended to be a <i>playground</i> or <i>testing field</i> where students can go to practice some of the concepts they learned during classes. ",
+  "It is an ambitious project, that will be implemented gradually and will probably have to be revised many times in the future by it's sole active developer. ",
+  "Currently, the app only has a couple of exercise-types that deal with decisions under ignorance. ",
+  "In the future, I hope to include many more options, making the experience a little richer for the students that decide to visit the app. ",
   "</p>",
   "<p style = 'line-height: 180%; margin-bottom: 15px;'>",
-  "In any case, if you find this project interesting and want to be involved, please access the app's <a href = 'https://direitorio.fgv.br/'>Github Page</a> or contact me at <a href = 'mailto: lucas.gomes@fgv.br'>lucas.gomes@fgv.br</a>. ",
-  "I hope you like what has been accomplished so far.",
+  "In any case, if you find this project interesting and want to be involved, please access the app's <a href = 'https://github.com/lthevenard/dt_exercises'>Github Page</a> or contact me directly at <a href = 'mailto: lucas.gomes@fgv.br'>lucas.gomes@fgv.br</a>. ",
+  "I hope you like what has been accomplished so far and have fun! ", emo::ji("joystick"),
   "</p>"
 )
 
 UI_footer <- paste0(
-  "</br></br><p style = 'text-align: center; font-size:0.8em; color: lightgray;'>",
-  "<b>Created by</b>: Lucas Thevenard    |    <b>Last update</b>: 28/03/2022</br>" 
+  "</br></br><p style = 'text-align: center; font-size:0.8em; color: lightgray; line-height: 50%;'>",
+  "<b>Created by</b>: Lucas Thevenard | ",
+  "<b>Last update</b>: 28/03/2022",
+  "</p>",
+  "<p style = 'text-align: center; font-size:0.8em; color: #b5d1e8;'>| ",
+  "<a style = 'color: #b5d1e8;', href = 'https://github.com/lthevenard/dt_exercises'>Github</a> | ",
+  "<a style = 'color: #b5d1e8;', href = 'https://www.linkedin.com/in/lthevenard/'>LinkedIn</a> | ",
+  "<a style = 'color: #b5d1e8;', href = 'https://fgv.academia.edu/lucasthevenard'>Academia.edu</a> |",
+  "</p>"
 )
 
 UI_sidebar_title_1 <- paste0(

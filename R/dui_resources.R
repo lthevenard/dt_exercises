@@ -200,7 +200,7 @@ describe_dui_solution_for_maximin <- function(solution, exercise_type, list_item
                           paste0("Last Maximin Value Used</b>: ", solution$results))
   paste0(
     "<div style = 'border-radius: 25px; background: #f7f7f7; padding: 60px; margin-right: 8px;'>", 
-    "<h3>Solution for a '", exercise_type, "' problem</h3></br>", hr(), "</br>",
+    "<h3 style = 'text-align: center;'>Solution for '", exercise_type, "' problem</h3></br>", hr(), "</br>",
     "<ul>",
     list_item_open, solution_type, "</li>",
     list_item_open, best_decision, "</li>",
@@ -224,7 +224,7 @@ describe_dui_solution_for_minimax <- function(solution, exercise_type, list_item
                           paste0("Last Minimum Regret Value Used</b>: ", solution$results))
   paste0(
     "<div style = 'border-radius: 25px; background: #f7f7f7; padding: 60px; margin-right: 8px;'>", 
-    "<h3>Solution for a '", exercise_type, "' problem</h3></br>", hr(), "</br>",
+    "<h3 style = 'text-align: center;'>Solution for '", exercise_type, "' problem</h3></br>", hr(), "</br>",
     "<ul>",
     list_item_open, solution_type, "</li>",
     list_item_open, best_decision, "</li>",
@@ -248,7 +248,7 @@ describe_dui_solution_for_opr <- function(solution, exercise_type, level_of_opti
                           paste0("Value of Best Decisions</b>: ", max(solution$results)))
   paste0(
     "<div style = 'border-radius: 25px; background: #f7f7f7; padding: 60px; margin-right: 8px;'>", 
-    "<h3>Solution for a '", exercise_type, "' problem</h3></br>", hr(), "</br>",
+    "<h3 style = 'text-align: center;'>Solution for a '", exercise_type, "' problem</h3></br>", hr(), "</br>",
     "<ul>",
     list_item_open, solution_type, "</li>",
     list_item_open, "Level of Optimism</b>: ", level_of_optimism, "</li>",
@@ -272,7 +272,7 @@ describe_dui_solution_for_pir <- function(solution, exercise_type, list_item_ope
                        paste0("Value of Best Decisions</b>: ", max(solution$results)))
   paste0(
     "<div style = 'border-radius: 25px; background: #f7f7f7; padding: 60px; margin-right: 8px;'>", 
-    "<h3>Solution for a '", exercise_type, "' problem</h3></br>", hr(), "</br>",
+    "<h3 style = 'text-align: center;'>Solution for a '", exercise_type, "' problem</h3></br>", hr(), "</br>",
     "<ul>",
     list_item_open, solution_type, "</li>",
     list_item_open, best_decision, "</li>",

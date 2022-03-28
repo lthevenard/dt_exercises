@@ -1,0 +1,10 @@
+# About this project
+
+[This app](https://lthevenard.shinyapps.io/dt_exercises/) was design so that Law students at [FGV's Rio de Janeiro Law School](https://direitorio.fgv.br/) could practice some of the concepts they are learning in their course on Decision Theory. Because it is a course designed for students that do not possess graduate-level math skills, the course is not intended to provide a deep mathematical understanding of Decision Theory. Instead, the focus of the course is to give a general overview of the field, introducing students to some of the merits and challenges of Decision Theory, specially as it relates to legal considerations regarding the consequences of legal decisions and public policy choices.
+
+Nevertheless, the course does offer a first contact with the typical decision problems and solution methods presented by Decision Theory, including a brief introduction to Game Theory. By dealing with simple, discrete examples, and focusing more on the conceptual foundations of the discipline, our goal is to prepare an interesting and effective introduction to Decision Theory. By not shying away completely from the analytical foundations of the discipline, we intend to guide students towards a solid understanding of rational choice theory and of its applications to legal problems.
+
+Given these objectives, [this app](https://lthevenard.shinyapps.io/dt_exercises/) is intended to be a playground or testing field where students can go to practice some of the concepts they learned during classes. It is an ambitious project, that will be implemented gradually and will probably have to be revised many times in the future by its sole active developer. Currently, the app only has a couple of exercise-types that deal with decisions under ignorance. In the future, I hope to include many more options, making the experience a little richer for the students that decide to visit the app.
+
+In any case, if you find this project interesting and want to be involved, please access the app's Github Page or contact me directly at lucas.gomes@fgv.br. I hope you like what has been accomplished so far, and have some fun! 🕹
+
